@@ -2,7 +2,6 @@
 body, html
 {
 	margin: 0 auto;
-	width: 1000px;
 }
 
 .home {
@@ -100,17 +99,14 @@ body, html
   }
 	
 	@media @phone
-	{
-		
-		.header-image { width: 450px; }
-		
-		.sky, .launch { display: none; }
-		
-		.blast { background-size: contain; }
-		
-		.walk
-		{
-			flex-direction: column;
+	{		
+		//.home, .intro, .space-images, .visit-planets, .walk, .walk-text { width: 98%; }
+		.container
+		{			
+			.home, .intro, .visit-planets {width: 98%; }
 		}
 	}
 }// home
+
+
+
