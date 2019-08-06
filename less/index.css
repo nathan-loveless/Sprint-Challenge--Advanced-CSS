@@ -225,7 +225,7 @@ html {
 .home .intro .header-image {
   background-image: url("../img/main-header.png");
   width: 800px;
-  height: 200px;
+  max-height: 200px;
   background-repeat: no-repeat;
 }
 .home .intro h2 {
