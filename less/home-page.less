@@ -8,8 +8,7 @@ body, html
 
   .intro 
 	{
-	 	font-size: 2.7em;
-	  
+	 	font-size: 2.7em;	  
 	  	width: 800px;
 		
 	 	.header-image
@@ -100,13 +99,75 @@ body, html
 	
 	@media @phone
 	{		
-		//.home, .intro, .space-images, .visit-planets, .walk, .walk-text { width: 98%; }
-		.container
+		width: 96vw;
+		
+		.intro 
+		{ 
+			width: 98%;
+			margin-top: 0px;
+			
+			.header-image 
+			{ 
+				width: 100%;
+				background-size: contain; 			
+			}
+			
+			
+		}
+		
+		.space-images
 		{			
-			.home, .intro, .visit-planets {width: 98%; }
+			.blast 
+			{ 
+				background-size: contain; 
+				width: 100%; 
+			}
+			.sky, .launch { display: none; }
+			
+		}
+		
+		.visit-planets { width: 98%; }
+		
+		.walk 
+		{ 
+			width: 98%; 
+			flex-direction: column-reverse;
+			margin-top: 25px;
+			padding-top: 25px;
+			padding: 0px 0px 0px 0px;
+			
+			.walk-text 
+			{ 
+				width: 98%; 
+				
+				
+				.btn
+				{
+					width: 98%;
+					border-radius: 5px;
+					padding-top: 25px;
+					padding-bottom: 25px;
+					font-size: 1.6em;
+					font-weight: bold;
+				}			
+			}
+			
+			.walk-img 
+			{ 
+					margin-bottom: 20px;
+				background-size: contain; 
+				width: 100%; 
+			}		
 		}
 	}
 }// home
+
+@media @phone
+{
+	width: 96vw;
+		
+	.nav-elements { width: 98% }
+}
 
 
 
