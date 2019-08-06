@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive changes based on the screen size no matter what size the screen is.
+Responsive uses @media queries to change the format of the HTML/CSS.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means you build the original website based on mobile screen sizes instead of building it based off of desktop monitor size.  The @media would target the desktop monitor resolutions.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Sets the rem to a base 10 of px.  62.5% = 10rem.  100% = 16px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+preprocessing is the ability to extend and add functionality to CSS that is not normally their by using functions, math expressions and programming style blocks to better organize code.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+@meda queries gives me the most issues with preprocessing, but learning well.
+I love mixins!  it is more programmatic which I am more familiar with!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
